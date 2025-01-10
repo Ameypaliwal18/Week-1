@@ -5,12 +5,12 @@ class HarryAge {
         String name = "Harry";
        
         //Person's Birth Year and Current Year
-        int BirthYear = 2000, PresentYear = 2024;
+        int birthYear = 2000, presentYear = 2024;
        
         //Age of the Person
-        int Age = (PresentYear - BirthYear);
+        int age = (presentYear - birthYear);
        
-        System.out.println(name + "'s age in " + PresentYear + " is " + Age);
+        System.out.println(name + "'s age in " + presentYear + " is " + age);
        
     }
 }
