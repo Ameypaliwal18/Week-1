@@ -1,4 +1,4 @@
-class Km_to_miles {
+class Kmtomiles {
 	public static void main(String[] args) {
 	
 		//Distance in Kilometers 
