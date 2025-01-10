@@ -1,4 +1,4 @@
-class Profit&Loss {
+class ProfitAndLoss {
 	public static void main(String[] args) {
 		
 		//Cost price and Sell price of the product
