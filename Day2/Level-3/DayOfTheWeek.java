@@ -1,23 +1,28 @@
-public class DayOfTheWeek {
+import java.util.Scanner;
+class DayOfTheWeek {
     public static void main(String[] args) {
-        // Check if the user provided the correct number of arguments
-        if (args.length != 3) {
-            System.out.println("Please provide exactly 3 arguments: month, day, and year.");
-            return;
-        }
+		// Initializing the scanner object 
+        Scanner input = new Scanner(System.in);
 
-        // Parse the command-line arguments into integers
-        int m = Integer.parseInt(args[0]); // month
-        int d = Integer.parseInt(args[1]); // day
-        int y = Integer.parseInt(args[2]); // year
+		// Taking month (m), day (d) and year (y) as input from the user.
+        System.out.print("Enter the month: ");
+        int m = input.nextInt();
+		
+        System.out.print("Enter the day: ");
+        int d = input.nextInt();
+		
+        System.out.print("Enter the year: ");
+        int y = input.nextInt();
 
-        // Apply the Zeller's Congruence formula for the Gregorian calendar
+		//Calculating the day of the week
         int y0 = y - (14 - m) / 12;
         int x = y0 + y0 / 4 - y0 / 100 + y0 / 400;
         int m0 = m + 12 * ((14 - m) / 12) - 2;
         int d0 = (d + x + 31 * m0 / 12) % 7;
 
-        // Print the result: 0 for Sunday, 1 for Monday, ..., 6 for Saturday
-        System.out.println(d0);
+		//Output
+        System.out.println("Day of the week: " + d0);
+
+		input.close();
     }
 }
