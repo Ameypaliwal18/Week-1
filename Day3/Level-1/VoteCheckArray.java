@@ -12,10 +12,10 @@ public class VoteCheckArray {
         {
             Student[i] = input.nextInt();
         }
-		// checking if the age is vaild for voting or not and is vaild or not
+		// checking if the age is valid for voting or not and is valid or not
         for (int i= 0 ; i< Student.length; i++ )
         {
-			// checking if the age is vaild 
+			// checking if the age is valid 
             if(Student[i]<0)
             {
                 System.out.println(" An invalid Age");

@@ -5,7 +5,7 @@ public class CheckTheNumber {
 		//Initializing a Scanner class object 
         Scanner scanner = new Scanner(System.in);
 
-        // Difining an array of size - 5
+        // Defining an array of size - 5
         int[] numbers = new int[5];
 
         // Taking 5 inputs from the user 
