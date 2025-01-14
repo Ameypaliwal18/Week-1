@@ -32,6 +32,4 @@ public class TrigonometricFunctionsCalculation {
         System.out.println("Cosine of the angle: " + results[1]);
         System.out.println("Tangent of the angle: " + results[2]);
     }
-
-    
 }
