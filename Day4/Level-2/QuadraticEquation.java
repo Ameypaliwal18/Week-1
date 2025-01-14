@@ -23,15 +23,15 @@ public class QuadraticEquation {
      }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Input a, b, and c for the quadratic equation
         System.out.print("Enter coefficient a: ");
-        double a = scanner.nextDouble();
+        double a = sc.nextDouble();
         System.out.print("Enter coefficient b: ");
-        double b = scanner.nextDouble();
+        double b = sc.nextDouble();
         System.out.print("Enter coefficient c: ");
-        double c = scanner.nextDouble();
+        double c = sc.nextDouble();
 
         // Find the roots of the quadratic equation
         double[] roots = findRoots(a, b, c);
