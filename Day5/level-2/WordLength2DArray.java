@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WordLengthArray {
+public class WordLength2DArray {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
