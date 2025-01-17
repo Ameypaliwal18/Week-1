@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class StringToCharArray {
+class StringtocharArray {
     // Method to return characters of a string as a char array without using toCharArray()
     public static char[] stringToCharArray(String string1) {
         char[] charArray = new char[string1.length()];
@@ -44,8 +44,6 @@ class StringToCharArray {
             System.out.println("The character arrays are equal.");
         } else {
             System.out.println("The character arrays are not equal.");
-        }
-
-      
+        }     
     }
 }
